@@ -1,0 +1,65 @@
+.youtubeButton {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.2s;
+    vertical-align: top;
+}
+.youtubeButton:hover{
+    opacity: 0.7;
+}
+.youtubeButton:active{
+    opacity: 0.3;
+}
+
+.joinButton {
+    background-color: white;
+    color: rgb(42, 124, 240);
+    border-color: rgb(42, 124, 240);
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 
+        background-color 0.2s,
+        color 0.2s;
+    vertical-align: top;
+}
+.joinButton:hover {
+    background-color: rgb(42, 124, 240);
+    color: white;
+}
+.joinButton:active {
+    opacity: 0.8;
+}
+
+.tweetButton{
+    background-color: rgb(34, 104, 254);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 12.5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.2s;
+    vertical-align: top;
+}
+.tweetButton:hover{
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
