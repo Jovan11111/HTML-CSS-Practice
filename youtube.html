@@ -4,61 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
-    <style>
-        .divVideoGrid{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 20px;
-            row-gap: 30px;
-        }
-        .thumbnail{
-            width: 100%;
-        }
-        .searchBar{
-            display: block;
-        }
-        .videoTitle{
-            font-family: Arial;
-            font-weight: bold;
-            font-size: small;
-            margin-bottom: 2px;
-            margin-top: 0px;
-        }
-        .videoAuthor{
-            font-family: Arial;
-            color: gray;
-            font-size: x-small;
-            margin-bottom: 2px;
-        }
-        .videoStats{
-            font-family: Arial;
-            color: gray;
-            font-size: x-small;
-            margin-top: 5px;
-        }
-
-
-        .divVideoInfo{
-            display: grid;
-            grid-template-columns: 50px 1fr;
-        }
-        .divChannelPicture{
-            width: 50px;
-            vertical-align: top;
-        }
-
-        .channelPicture{
-            width: 40px;
-            border-radius: 20px;
-        }
-        .divThumbnail{
-            margin-bottom: 10px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
 </head>
 <body>
-    <input class="searchBar" type="text" placeholder="Search">
+
+    <div class = "Header">
+        <div class="leftSection">
+            <img class= "hamMenu" src="header_images/pic8.svg" alt="lol">
+            <img class= "youtubeLogo" src="header_images/piv7.svg" alt="lol">
+        </div>
+        <div class="middleSection">
+            <input class="searchBar" type= "text" placeholder="Search">
+            <button class= "searchButton">
+                <img class ="searchIcon" src="header_images/pic1.svg" alt="lol">
+            </button>
+            <button class="microButton">
+                <img class="microIcon" src="header_images/pic6.svg" alt="lol">
+            </button>
+        </div>
+        <div class="rightSection">
+            <img class="camIcon" src="header_images/pic5.svg" alt="lol">
+            <img class="rubIcon" src="header_images/pic4.svg" alt="lol">
+            <img class="bellIcon" src="header_images/pic3.svg" alt="lol">
+            <img class="channelIcon" src="header_images/pix2.jpeg" alt="lol">
+        </div>
+
+    </div>
 
     <div class = "divVideoGrid">
         <div class = "videoPreview">
