@@ -4,8 +4,15 @@
     column-gap: 20px;
     row-gap: 30px;
 }
+
+@media (max-width: 600px) {
+    .divVideoGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 .thumbnail{
     width: 100%;
+
 }
 
 .videoTitle{
@@ -44,4 +51,17 @@
 }
 .divThumbnail{
     margin-bottom: 10px;
+    position: relative;
+}
+
+.videoLen{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
 }
