@@ -1,0 +1,8 @@
+.rightSidebar{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 265px;
+    width: 300px;
+    background-color: lightpink;
+}
