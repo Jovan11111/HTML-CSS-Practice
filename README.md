@@ -5,8 +5,8 @@ I plan on starting a javaScript tutorial which I will also practice in this repo
 
 Site interfaces I've recreated:
 1. Youtube
-![image](https://github.com/Jovan11111/HTML-CSS-Practice/assets/75695070/2771e24a-484b-4ae1-a6db-5d628082eeea)
+![image](https://github.com/Jovan11111/HTML-CSS-Practice/assets/75695070/517439dd-fe30-4e05-b423-4cfd5dc7299e)
 
 2. Twitter
-![image](https://github.com/Jovan11111/HTML-CSS-Practice/assets/75695070/cd2c13b8-7f7b-4e10-9331-c6b8bda129da)
+![image](https://github.com/Jovan11111/HTML-CSS-Practice/assets/75695070/26028400-fb06-4921-80a3-a72b30ffd3fd)
 
