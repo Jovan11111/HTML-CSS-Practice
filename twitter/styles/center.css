@@ -84,7 +84,6 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: lightgreen;
 }
 
 .centerPostInputDiv{
@@ -106,5 +105,160 @@
 }
 
 .centerPostIcons{
+    display: flex;
+    align-items: center;
+    background-color: white;
     
 }
+
+.centerPostIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    transition: background-color 0.2s;
+}
+.centerPostIcon:hover{
+    background-color: lightblue;
+}
+
+.centerPostIconImage{
+    height: 18px;
+}
+
+.centerPostIconButton{
+    margin-left: 100px;
+    margin-bottom: 8px;
+}
+.centerPostButton{
+    size: 12px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding-left: 24px;
+    padding-bottom: 6px;
+    padding-right: 24px;
+    padding-top: 6px;
+    background-color: rgb(26, 155, 198);
+    transition: background-color 0.2s;
+}
+
+.centerPostButton:hover{
+    background-color: rgb(88, 178, 208);
+}
+
+.centerTweets{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 477px;
+    right: 586px;
+    top: 2px;
+    margin-top: 150px;
+
+}
+
+.centerTweet{
+    display: flex;
+    transition: background-color 0.2s;
+}
+.centerTweet:hover{
+    background-color: rgb(234, 234, 234);
+}
+
+.centerTweetsProfileImage{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    cursor: pointer;
+
+}
+.centerTweetsProfileImageImage{
+    height: 36px;
+    margin-top: 6px;
+    border-radius: 20px ;
+}
+
+.centerTweetsText{
+    width: 85%;
+}
+
+.centerTweetsTextName{
+    display: flex;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.centerTweetsTextNameName{
+    font-weight: bold;
+    cursor: pointer;
+}
+.centerTweetsTextNameName:hover{
+    text-decoration: underline;
+}
+
+.centerTweetsTextNameAt{
+    color: rgb(143, 143, 143);
+    margin-left: 6px;
+}
+
+.centerTweetsTextTweet{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+
+.centerTweetsTextIcons{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.centerTweetsTextIconsImage{
+    height: 18px;
+    margin-right: 6px;
+}
+
+.centerTweetsTextIconsText{
+    font-size: 14px;
+}
+
+.centerTweetsTextIconsComment,
+.centerTweetsTextIconsRetweet,
+.centerTweetsTextIconsLike,
+.centerTweetsTextIconsViews,
+.centerTweetsTextIconsSave{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 36px;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: background-color 0.2s;
+}
+.centerTweetsTextIconsComment:hover{
+    background-color: rgb(166, 211, 227);
+}
+.centerTweetsTextIconsRetweet:hover{
+    background-color: rgb(146, 245, 146);
+}
+.centerTweetsTextIconsLike:hover{
+    background-color: rgb(248, 176, 188);
+}
+.centerTweetsTextIconsViews:hover{
+    background-color: rgb(166, 211, 227);
+}
+.centerTweetsTextIconsSave:hover{
+    background-color: rgb(240, 240, 91);
+}
+.centerTweetsTextIconsImage{padding-left: 4px;}
