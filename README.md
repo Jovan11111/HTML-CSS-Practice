@@ -8,3 +8,7 @@ Curentlly woring on twitter
 Site interfaces I've recreated:
 1. Youtube
 ![image](https://github.com/Jovan11111/HTML-CSS-Practice/assets/75695070/2771e24a-484b-4ae1-a6db-5d628082eeea)
+
+2. Twitter
+![image](https://github.com/Jovan11111/HTML-CSS-Practice/assets/75695070/cd2c13b8-7f7b-4e10-9331-c6b8bda129da)
+
